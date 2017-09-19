@@ -1,0 +1,29 @@
+@charset "utf-8";
+.fix-ctrl{
+    position: fixed;
+    right: 20px;
+    bottom:10px;
+}
+.fix-ctrl i{
+    display: block;
+    margin-bottom:5px;
+    width: 48px;
+    height: 58px;
+    cursor: pointer;
+    background:url(../post100image/spider_index_v4.png) 0px -942px no-repeat;
+}
+.fix-ctrl a{
+    display: block;
+    width: 48px;
+    height: 40px;
+    line-height:40px;
+    font-size: 14px;
+    margin-bottom:5px;
+    text-align: center;
+    color: #fff;
+    background:url(../post100image/sz_icon.png) 13px -469px no-repeat #2864c8;
+}
+.fix-ctrl .phone{
+    background-position: -58px -469px;
+    margin-bottom: 18px;
+}

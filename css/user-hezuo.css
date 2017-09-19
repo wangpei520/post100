@@ -1,0 +1,27 @@
+@charset"utf-8";
+.user-w{
+    width: 920px;
+    height: 230px;
+    margin:40px auto;
+    position: relative;
+    background: url(../post100image/index_partner_v4.jpg) no-repeat 0 38px;
+}
+.user-w h4{
+    color: #828282;
+    font-size:16px;
+    line-height:22px;
+    font-weight:normal;
+}
+.user-w .hezuo{
+    margin-top:120px;
+    padding-top:15px;
+    border-top: 1px solid #f5f5f5;
+}
+.user-w a {
+    font-size: 14px;
+    margin-top: 68px;
+    float: right;
+}
+.user-w .post{
+    margin-top:50px;
+}

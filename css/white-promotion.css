@@ -1,0 +1,91 @@
+@charset "utf-8";
+.white-promotion{
+    margin-top:-1px;
+    padding-top:30px;
+    position: relative;
+    
+}
+.pro-l{
+    width: 504px;
+    height: 400px;
+    position: absolute;
+    left:160px;
+    text-align: center;
+    vertical-align: middle;
+}
+.pro-l img{
+    margin-bottom:10px;
+}
+.pro-r{
+    position: absolute;
+    right:166px;
+}
+.pro-r-content-top{
+    margin-bottom:40px;;
+}
+.pro-r-content-top h3{
+    width: 416px;
+    height: 30px;
+    text-align: right;
+    margin:70px 0 10px 0;
+    font-size: 26px;
+    font-weight: normal;
+}
+.pro-r-content-top p{
+    width: 416px;
+    height:20px;
+    line-height:20px;
+    color: #787878;
+    font-size:14px;
+    text-align: right;
+}
+.pro-r-content-bottom{
+    width: 416px;
+    height: 220px;
+    position: relative;
+}
+.pro-r-content-bottom .bottom-inner-l{
+    width: 145px;
+    position: absolute;
+}
+.bottom-inner-l a.app{
+    display: inline-block;
+    width: 145px;
+    padding-left:45px;
+    height: 50px;
+    color: #fff;
+    font-size:18px;
+    line-height:50px;
+    margin-left:76px;
+    text-align: left;
+}
+.bottom-inner-l a.app:hover{
+    background-color: #ff961e;
+}
+.bottom-inner-l a.android{
+    background: url(../post100image/spider_index_v4.png) 15px -148px no-repeat;
+    background-color: #ff7800;
+}
+.bottom-inner-l a.ios{
+     margin-top:15px;
+     background: url(../post100image/spider_index_v4.png) 15px -200px no-repeat;
+     background-color: #ff7800;
+ }
+.bottom-inner-l a.app span{
+    margin-left:10px;
+    margin-right:5px;
+}
+.bottom-inner-l a.app label{
+    font-size:12px;
+}
+.index-down-img{
+    position: absolute;
+    right:0;
+    top:-5px;
+    background: url(../post100image/spider_index_v4.png) 0px -535px no-repeat;
+    width: 127px;
+    padding-top: 127px;
+    text-align: center;
+    color: #d2d2d2;
+}
+

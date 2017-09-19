@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>快递100-查快递,寄快递,上快递100</title>
+    <link rel="shortcut icon" href="https://cdn.kuaidi100.com/favicon.ico" />
+    <link rel="stylesheet" href="css/post100.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/white-promotion.css">
+    <link rel="stylesheet" href="css/blue-promotion.css">
+    <link rel="stylesheet" href="css/white-serive.css">
+    <link rel="stylesheet" href="css/user-hezuo.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/fix-ctrl.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="w990">
+        <div class="logo clf">
+            <a href="http://www.kuaidi100.com/" title="寄快递，查快递，上快递100">
+                <img src="post100image/logo_v4.png" alt="快递100logo">
+            </a>
+        </div>
+        <div class="head-nav clf">
+            <ul>
+                <!--nav-全国站-->
+                <li class="fl small bef clf">
+                    <a href="" class="head-nav-select">
+                        全国站 <em class="icon-down"></em>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="">深圳站</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--nav-查快递-->
+                <li  class="fl clf">
+                    <a href="" id="menu-track">
+                        查快递<em class="icon-triangle"></em>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="">快递公司大全</a>
+                        </li>
+                        <li>
+                            <a href="">国际快递大全</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--nav-寄快递-->
+                <li  class="fl clf">
+                    <a href="" id="menu-send">
+                        寄快递<em class="icon-triangle"></em>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="">快递时效查询</a>
+                        </li>
+                        <li>
+                            <a href="">快递价格查询</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--nav-查网点-->
+                <li  class="fl clf">
+                    <a href="" id="menu-net">
+                       查网点<em class="icon-triangle"></em>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="">快递网点大全</a>
+                        </li>
+                        <li>
+                            <a href="">快递电话大全</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--nav--快递接口-->
+                <li  class="fl clf">
+                    <a href="" id="menu-api">
+                      快递接口<em class="icon-triangle"></em>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="">接口申请</a>
+                        </li>
+                        <li>
+                            <a href="">技术文档</a>
+                        </li>
+                        <li>
+                            <a href="">插件下载</a>
+                        </li>
+                        <li>
+                            <a href="">常见问题</a>
+                        </li>
+                        <li>
+                            <a href="">合作伙伴</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--nav--快递管家-->
+                <li  class="fl clf">
+                    <a href="" id="menu-snt">
+                        快递管家
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--登录注册部分-->
+        <div class="user-box clf">
+            <span id="welcome" class="hidden">
+            <a href="" class="btn-default btn-reg">注册</a>
+            <a href="" class="btn-default btn-login">登录</a>
+            </span>
+        </div>
+    </div>
+</div>
+    <!--输入查询部分-->
+ <div class="search-section">
+        <div class="search-box">
+            <!--查询版心部分-->
+            <div class="search-w">
+                <!--查询部分标题-->
+                <div class="search-title">全新升级  &nbsp;智能查询</div>
+                <!--查询输入框-->
+                <div class="input-box">
+                    <a class="btn-default com-logo relative" id="selectComBtn" title="切换快递公司">
+                        <img src="https://cdn.kuaidi100.com/images/all/56/default.png" alt="">
+                    </a>
+                    <input type="text" class="inp-default inp-search" id="postid" placeholder="跟快递有关的都能查，试试吧"/>
+                    <a id="query" class="btn-default btn-search"></a>
+                    <a id="location" class="hidden btn-location" title="获取当前位置"></a>
+                </div>
+            </div>
+            <!--查询例子-->
+            <div id="example" class="mt10px font14px input-example">例如：
+                <a id="useTips">227728570825</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="useTips2">金蝶大厦</a>
+            </div>
+            <div class="post-info" id="info"></div>
+        </div>
+     <!--隔开上下盒子距离-->
+     <div class="small-grogram"></div>
+ </div>
+        <!--白色推广下载部分-->
+ <div class="white-promotion">
+     <!--白色推广下载左边图片-->
+     <div class="pro-l clf">
+         <img src="post100image/index_devices_v4.png" alt="">
+     </div>
+     <!--白色推广下载右边部分-->
+     <div class="pro-r">
+         <div class="pro-r-content">
+             <!--右边部分的上一部分-->
+             <div class="pro-r-content-top">
+                 <h3>为您的手机装上五星好评快递工具</h3>
+                 <p>多系统支持：苹果、安卓、微软、小米、黑莓、锤子...</p>
+                 <p>多屏幕支持：手机、平板、桌面电脑、电视...</p>
+             </div>
+             <!--右边部分的下一部分-->
+             <div class="pro-r-content-bottom">
+                 <!--右边部分的下一部分又分为左右两部分，这是左部分-->
+                 <div class="bottom-inner-l">
+                     <a href="" class="android app"><span>Android</span><label>下载</label></a>
+                     <a href="" class="app ios"><span>App Store</span><label>下载</label></a>
+                 </div>
+                 <!--右边部分的下一部分又分为左右两部分，这是右部分-->
+                 <div class="index-down-img">扫一扫下载快递100</div>
+
+             </div>
+         </div>
+     </div>
+ </div>
+<!--蓝色推广部分-->
+<div class="blue-promotion">
+            <!--版心-->
+            <div class="blue-w">
+                <!--蓝色推广左边部分-->
+                <div class="blue-promotion-l">
+                    <h3>企业、微商及商务人士的“快递管家”</h3>
+                    <ul>
+                        <li> 非常好用的快递单打印功能，支持超过100家快递公司</li>
+                        <li>自动跟踪您的快递进度，找出可能存在的异常快递单</li>
+                        <li>自动给您的客户发送物流提醒</li>
+                        <li>为您的客户定制一个专属查询页</li>
+                    </ul>
+                    <a href="" class="btn-yellow btn-index-sec">使用无需任何费用</a>
+                </div>
+                <!--蓝色推广右边部分-->
+                <div class="blue-promotion-r">
+                    <img src="post100image/index_print_v4.png" alt="">
+                </div>
+            </div>
+    </div>
+<!--白色服务部分-->
+<div class="white-serive">
+    <!--版心-->
+    <div class="serive-w">
+        <!--该部分左边-->
+        <div class="white-serive-l">
+            <img src="post100image/index_api_v4.png" alt="">
+        </div>
+        <!--该部分右边-->
+        <div class="white-serive-r">
+           <h3>帮助您的网站、系统和APP集成快递100服务</h3>
+            <p>企业级查询接口API，累计提供超过百亿次的专业查询服务</p>
+            <p>  助力上万家企业、电商提升物流环节的用户体验与服务质量</p>
+            <a href="">立即申请API</a>
+            <ul>
+                <li>实时快递查询接口</li>
+                <li>智能判断快递接口</li>
+                <li>快递信息订阅推送接口</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--api接口合作-->
+<div class="user-hezuo">
+    <div class="user-w">
+        <h4 class="user">典型用户</h4>
+        <a href="" class="api clf">API接口合作 >></a>
+        <h4 class="hezuo">典型伙伴</h4>
+        <a href="" class="post clf">快递公司总部入驻 >></a>
+    </div>
+</div>
+<!--底部部分-->
+<div class="footer">
+    <!--该部分版心-->
+    <div class="footer-w">
+        <!--联系方式部分-->
+        <div class="footer-social">
+            <dl class="clf">
+                <dt class="clf">通过以下方式关注我们：</dt>
+                <dd class="clf">
+                    <a href="" class="weixin"><i class="ft-social-ico" title="快递100微信公众号"></i></a>
+                    <a href="" class="link"><i class="ft-social-ico" title="快递100微信小程序"></i></a>
+                </dd>
+            </dl>
+        </div>
+        <!--底部连接部分-->
+        <div class="footer-link clf">
+            <dl class="ft-link">
+                <dt>寄快递服务</dt>
+                <dd><a>附近快递员查询</a></dd>
+                <dd><a>附近快递网点查询</a></dd>
+                <dd><a>快递公司电话</a></dd>
+                <dd><a>快递价格查询</a></dd>
+            </dl>
+            <dl class="ft-link">
+                <dt>查快递服务</dt>
+                <dd><a>申通快递查询</a></dd>
+                <dd><a>韵达快递查询</a></dd>
+                <dd><a>圆通快递查询</a></dd>
+                <dd><a>中通快递查询</a></dd>
+                <dd><a>德邦快递查询</a></dd>
+            </dl>
+            <dl class="ft-link">
+                <dt>快速通道</dt>
+                <dd><a>手机HTML5站</a></dd>
+                <dd><a>快递网点入驻/加盟</a></dd>
+                <dd><a>快递网点维护/更新</a></dd>
+                <dd><a>帮助文档</a></dd>
+            </dl>
+            <dl class="ft-link">
+                <dt>关于我们</dt>
+                <dd><a>关于我们</a></dd>
+                <dd><a>百递网络</a></dd>
+                <dd><a>百递物流</a></dd>
+                <dd><a>联系我们</a></dd>
+                <dd><a>加入我们</a></dd>
+                <dd><a>用户授权及声明</a></dd>
+            </dl>
+        </div>
+        <!--底部版权部分-->
+        <div class="footer-copyright">
+            <ul class="clf">
+                <li><a href="" title="金蝶" class="kingdie-log"></a></li>
+                <li>金蝶旗下网站 深圳前海百递网络有限公司 版权所有©2010-2017</li>
+                <li><a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">粤ICP备14085002号-5</a></li>
+                <li><a href="https://www.kuaidi100.com/about/licence.shtml" target="_blank" rel="nofollow">粤B2-20150010</a></li>
+            </ul>
+            <ul  class="clf">
+                <li><a href="" title="深圳市网上报警平台"></a></li>
+                <li><a href="" title="深圳市公共信息网络备案"></a></li>
+                <li><a href="" ></a></li>
+                <li><a href="" title="深圳市市场监督管理局企业主体身份公示"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--右下角控制页面小图标-->
+<div class="fix-ctrl">
+    <i title="回到顶部" id="ctrl-gotop"></i>
+    <a href="" title="反馈" id="feedback"></a>
+    <a href="" title="手机版（h5站）" id="goh5" class="phone"></a>
+</div>
+<script src="js/ft_ctrl.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>

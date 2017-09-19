@@ -1,0 +1,99 @@
+@charset"utf-8";
+.search-title{
+    font-size:26px;
+    color: #fff;
+    line-height:30px;
+    text-align: center;
+    padding-bottom:20px;
+}
+.input-box{
+    position: relative;
+    border-shadow: 0 0 20px 3px #2864c8;
+    margin-bottom:10px;
+    background: #fff;
+}
+.btn-default{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.com-logo{
+    line-height:42px;
+    padding:0;
+    border: 1px solid #d2d2d2;
+    border-right:none;
+    background: #fff;
+}
+.inp-default{
+    border: 1px solid #d2d2d2;
+    border-right:none;
+    vertical-align: middle;
+    outline: none;
+}
+.inp-search{
+    width: 655px;
+    height: 38px;
+    line-height:38px;
+    padding:9px 10px;
+    font-size:16px;
+}
+.btn-location{
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 12px;
+    left: 692px;
+    background: url(../post100image/spider_search_v4.png) no-repeat 8px -30px #fff;
+}
+.btn-search{
+    display: inline-block;
+    float: right;
+    width: 178px;
+    height:58px;
+    line-height:58px;
+    font-size:18px;
+    color: #fff;
+    border-left: 1px solid #d2d2d2;
+    background: url(../post100image/spider_search_v4.png) 84px -576px no-repeat  #ff7800;;
+}
+.btn-search:hover {
+    background: url(../post100image/spider_search_v4.png) 84px -576px no-repeat #ff961e;
+}
+.mt10px{
+    margin-top:10px;
+}
+.font14px{
+    font-size:14px;
+}
+.input-example{
+    padding-left: 64px;
+    background-color: #3278e6;
+    color: #b4d2ff;
+}
+#useTips,#useTips2{
+    color: #b4d2ff;
+}
+.post-info {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-color: #ccc;
+    display: none;
+    top:108px;
+    left:0px;
+    overflow: hidden;
+    padding:20px 0 0 20px;
+    font-size:18px;
+}
+.infoBox {
+    padding-left:20px;
+    font-size:12px;
+}
+.small-grogram{
+    width: 100%;
+    margin-top:10px;
+    height: 200px;
+    background:url(../post100image/small-program.png) no-repeat center center;
+    min-width:990px;
+}

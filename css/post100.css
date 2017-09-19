@@ -1,0 +1,80 @@
+@charset "utf-8";
+/*所有全局大盒子样式*/
+html{
+    overflow-y: scroll;
+}
+html, body {
+    text-align: left
+}
+body, input, textarea, select, button {
+    font: 12px/22px "Microsoft YaHei", Verdana, arial, sans-serif;
+}
+input, textarea, select, button {
+    vertical-align: middle
+}
+body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, table {
+    margin: 0;
+    padding: 0
+}
+img{
+    vertical-align: middle;
+    border:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:1em;
+}
+ul,dl{
+    list-style: none;
+}
+a{
+    outline:none;
+    text-decoration: none;
+    color: #3278e6;
+    cursor: pointer;
+}
+a:hover {
+    outline: none;
+    color: #78aaf0;
+    text-decoration: none;
+}
+.clf{
+    overflow: hidden;
+    _zoom: 1;
+}
+.header{
+    height: 80px;
+    padding-bottom:10px;
+    background-color: #3278e6;
+    min-width:990px;
+}
+.w990{
+    width: 990px;
+    margin:auto;
+    height: 90px;
+}
+.search-section{
+    padding-top:60px;
+    min-height:350px;
+    min-width:990px;
+    background-color: #3278e6;
+}
+.search-box{
+    width: 920px;
+    margin:auto;
+    position: relative;
+}
+.white-promotion,.white-serive,.blue-promotion{
+    min-width:990px;
+    min-height: 400px;
+    background-color: #f5faff;
+}
+.blue-promotion{
+    background-color: #3278e6;
+}
+.user-hezuo{
+    width: 960px;
+    margin:auto;
+}
+.footer{
+    background-color: #f5faff;
+}

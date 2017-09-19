@@ -1,0 +1,88 @@
+@charset "utf-8";
+.logo{
+    float: left;
+    margin:14px 0 0 10px;
+}
+.logo a{
+    display: inline-block;
+    width: 160px;
+    height: 70px;
+    margin-top:5px;
+}
+.head-nav{
+    width: 650px;
+    height: 80px;
+    margin-left:-16px;
+    float: left;
+    text-align: center;
+    font-size:16px;
+}
+.head-nav ul{
+    display: inline-table;
+}
+
+.head-nav ul li.fl {
+    float: left;
+    border-top: 1px solid #3278e6;
+    border-left: 1px solid #3278e6;
+    border-right: 1px solid #3278e6;
+}
+.head-nav ul li.small{
+    font-size:14px;
+}
+.head-nav ul li.bef{
+    position: relative;
+}
+.head-nav ul li.bef:before{
+    content: '';
+    position: absolute;
+    left:9px;
+    top: 32px;
+    width: 0.5px;
+    height: 25px;
+    background:rgba(255,255,255,0.3);
+}
+.head-nav ul li.fl a{
+    display: block;
+    width: 105px;
+    padding:30px 0 10px 0;
+    color: #b4d2ff;
+}
+.head-nav ul li.fl a.head-nav-select{
+    color: #fff;
+}
+.head-nav ul li:hover a:hover {
+    color: #3278e6;
+}
+
+.head-nav ul li.fl a .icon-down{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    vertical-align: middle;
+    margin-left: 3px;
+    border-top: 4px solid #fff;
+}
+.user-box{
+    float: right;
+    position: absolute;
+    right:150px;
+    top:25px;
+}
+.user-box .btn-default{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.user-box .btn-reg,.user-box .btn-login {
+    width: 60px;
+    height: 35px;
+    line-height: 35px;
+    color: #b4d2ff;
+    font-size:14px;
+    border: 1px solid #78aaf0;
+    background-color: #3278e6;
+    color: #b4d2ff;
+}

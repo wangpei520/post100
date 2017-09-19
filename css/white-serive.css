@@ -1,0 +1,60 @@
+@charset"utf-8";
+.serive-w{
+    width: 1000px;
+    height:420px;
+    margin:auto;
+    position: relative;
+}
+.serive-w .white-serive-l{
+    width: 260px;
+    height: 360px;
+    position: absolute;
+    left:50px;
+
+}
+.serive-w .white-serive-l img{
+    padding-top:60px;
+}
+.serive-w .white-serive-r{
+    width: 619px;
+    height: 400px;
+    position: absolute;
+    right:20px;
+    top: 80px;
+}
+.white-serive-r h3{
+    height: 30px;
+    line-height:30px;
+    text-align: right;
+    font-size:26px;
+    font-weight: normal;
+    margin-top:55px;
+    margin-bottom:20px;
+}
+.white-serive-r p{
+    text-align: right;
+    height: 30px;
+    linr-height:30px;
+    font-size:14px;
+    color: #787878;
+}
+.white-serive-r a{
+    display: inline-block;
+    width: 310px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size:18px;
+    margin:60px 0 10px 305px;
+    background-color: #ff7800;
+}
+.white-serive-r ul li{
+    float: right;
+    padding-left: 20px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #787878;
+    background: url(../post100image/spider_index_v4.png) 0px -273px no-repeat;
+    margin-left:10px;
+}
